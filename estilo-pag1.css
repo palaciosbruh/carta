@@ -1,0 +1,58 @@
+body{
+    background: url(fondo.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+h1{
+    font-family: "Amatic SC";
+    font-size: 50px;
+}
+
+p{
+    font-family: "Amatic SC";
+    font-size: 30px;
+}
+
+.btn1{
+    font-family: "Amatic SC";
+    background-color: #F57CCE;
+    color: white;
+    border-radius: 10%;
+    border: solid 3px #F57D87;
+    font-size: xx-large;
+}
+
+.btn1:hover{
+    width: 12%;
+    height: 35%;
+}
+
+.video{
+    border-radius: 7%;
+}
+
+.img1{
+    width: 320px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid  #F5C3E3 7px ;
+    position: relative;
+
+
+}
+
+.img2{
+    width: 520px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid  #F5C3E3 7px ;
+    margin-right: 30px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo-pag2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.p1').hover(function(){
+                arriba = Math.random()*(400-1) +1;
+                abajo = Math.random() * (609-1) +1;
+              $(this).css('top', arriba);
+              $(this).css('left', abajo);
+            });
+        });
+    function dijoSi(){
+        document.getElementById('si').style.display = 'block';
+    }
+    </script>
+    <title>te amoooooooooo</title>
+</head>
+<body>
+    <b><center><h1>Quiero decirte algo mi linda</h1></center></b>
+    <center><h2 class="h1">(Se que no esta bien que te lo diga por aqui, pero la verdad quiero decirtelo ya mi linda)</h2></center>
+    <b><center><p>La verdad en el poco tiempo que eh pasado junto a ti, me eh sentido tan querido, tan feliz, me haces sentir todo, yo la verdad estoy <br> seguro de que quiero estar contigo, no tengo que pensar nada, porque me has demostrado ser una mujer <br>muy linda, muy inteligente, muy maravillosa, capaz de todo y segura de si misma y la verdad eso me encanta :D, estoy tan enamorado de ti. bueno lo que quiero decirte es.</p></center></b>
+    <center><h1>¿Quieres ser mi novia?</h1></center>
+<br>
+<center>
+<section>
+    <div class="opciones p">
+        <p class="p1">No</p>
+        <p onclick="dijoSi()" class="p2">Si</p>
+        <div id="si">
+            <h2>Sabia que dirias que si jsjs, te amo mucho mi niña :3, graciass enserio, ten por seguro <br> que dare lo mejor de mi, te mereces todo lo bueno mi niña, te adoro y te mando muchos besitos mi Adrianita.</h2>
+        </div>
+    </section>
+<br>
+<br>
+<br>
+    <p>Eres la mejor mi niña, perdoname si esta algo mal la pagina :(</p>
+</center>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+    background: url(fondo6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+h1{
+    font-family: "Amatic SC";
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+.h1{
+    font-family: "Amatic SC";
+    font-size: 35px;
+    background-color: antiquewhite;
+}
+
+p{
+    font-family: "Amatic SC";
+    font-size: 25px;
+    background-color: beige;
+}
+
+.opciones p{
+    background: black;
+    display: initial;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+p.p1{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 100px;
+}
+p.p1:hover{
+    background:  rgb(221, 155, 155);
+    cursor: pointer;
+}
+
+p.p2{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+    width: 100px;
+}
+p.p2:hover{
+    background: rgb(221, 155, 155);
+    cursor: pointer;
+}
+#si{
+    background: rgb(206, 4, 4);
+    left: 420px;
+    position: absolute;
+    top: 122px;
+    width: 550px;
+    color: #ffffff;
+    padding: 50px;
+    display: none;
+}
+  
